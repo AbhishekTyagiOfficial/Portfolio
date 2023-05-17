@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.home:hover{
+  color:red;
+}
+.about:hover{
+  color: red;
+}
+.edu:hover{
+  color: red;
+}
+.port:hover{
+  color: red;
+}
+.contact:hover{
+  color: red;
+}
+/* Icons */
+.youtube{
+border: 15px;
+}
