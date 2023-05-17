@@ -1,5 +1,6 @@
 import React from "react";
-import images from "../images/portfolio.jpg";
+import "../App.css";
+import images from "../images/one.jpg";
 import SocialFollow from "../SocialFollow";
 import { Link, Outlet } from "react-router-dom";
 
@@ -28,7 +29,7 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-4 col-sm-12 col-xs-12 my-auto">
-            <img src={images} alt="image" />
+            <img src={images} alt="One_image" />
           </div>
         </div>
       </div>
