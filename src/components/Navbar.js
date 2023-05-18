@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+import image from "../images/one.jpg";
 
 export default function Navbar() {
   const navbg = {
@@ -11,12 +12,19 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg shadow p-3 bg-body-tertiary"
+        className="navbar navbar-expand-lg shadow-lg p-2 bg-body-tertiary"
         style={navbg}
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" style={navbg}>
-            Portfolio
+            <img
+              src={image}
+              alt="logo"
+              style={{
+                width: "3rem",
+                borderRadius: "25px",
+              }}
+            />
           </Link>
           <button
             className="navbar-toggler"

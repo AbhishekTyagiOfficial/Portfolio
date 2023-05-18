@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <>
       <div className="container mt-5">
-        <div className="row mb-5 d-flex flex-column-reverse flex-md-row">
+        <div className="row mb-5 d-flex flex-column-reverse flex-md-row mt-5">
           <div className="col-md-8 col-sm-12 col-xs-12 text-start">
-            <div className="mt-5">
+            <div className=" mt-5">
               <span className="subtitle">Welcome to my world</span>
             </div>
-            <h1 className="title  mt-3">
+            <h1 className="title mt-3">
               Hi, I'm
               <span className="name mt-3 text-danger"> Abhishek Tyagi</span>
               <br />
@@ -28,8 +28,15 @@ export default function Home() {
               your project a success.
             </p>
           </div>
-          <div className="col-md-4 col-sm-12 col-xs-12 my-auto">
-            <img src={images} alt="One_image" />
+          <div className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary rounded-circle ">
+            <img
+              src={images}
+              alt="One_image"
+              style={{
+                width: "100%",
+                borderRadius: "20%",
+              }}
+            />
           </div>
         </div>
       </div>
@@ -37,7 +44,7 @@ export default function Home() {
       <div className="container mt-5">
         <div className="row">
           <h1>About Me</h1>
-          <div className="col-md-12 ol-sm-12 col-xs-12 text-start">
+          <div className="col-md-12 col-sm-12 col-xs-12 text-start my-4">
             <p>
               Hi! My name is Abhishek Tyagi. I am from Saharanpur and I am Post
               Graduate from Gharwal University where I have completed my Masters
