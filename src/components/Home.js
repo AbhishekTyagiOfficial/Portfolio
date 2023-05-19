@@ -104,28 +104,28 @@ export default function Home() {
         <div className="container mb-3">
           <div className="row">
             <h2 className="title_education mb-5">My Education</h2>
-            <div className="col-md-3 col-sm-12 col-xs-12">
+            <div className="col-md-3 col-sm-12 col-xs-12 ">
               <Link to="mca">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span className="list-unstyled">POST GRADUATION</span>{" "}
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12">
+            <div className="col-md-3 col-sm-12 col-xs-12 ">
               <Link to="bsc">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span className="">GRADUATION</span>
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12">
+            <div className="col-md-3 col-sm-12 col-xs-12 ">
               <Link to="intermediate">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span>INTERMEDIATE</span>
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12">
+            <div className="col-md-3 col-sm-12 col-xs-12 ">
               <Link to="matrix">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span>MATRICULATE</span>
@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="card h-100">
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">PERSONAL WEBSITE</h5>
                     <p className="card-text ">
                       This is a longer card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -157,7 +157,7 @@ export default function Home() {
                 <div className="card h-100">
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">CURD APPLICATION IN JAVA</h5>
                     <p className="card-text">This is a short card.</p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="card h-100">
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">GAME ZONE WEBSITE</h5>
                     <p className="card-text">
                       This is a longer card with supporting text below as a
                       natural lead-in to additional content.

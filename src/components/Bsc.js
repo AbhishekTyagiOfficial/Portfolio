@@ -4,14 +4,14 @@ export default function Bsc() {
   return (
     <>
       <div className="container ">
-        {" "}
-        <div class="card w-50 mb-3 mx-auto">
-          <div class="card-body text-dark">
-            <h5 class="card-title ">BSC title</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
+        <div class="card w-50 mb-3 mx-auto shadow-lg border-0 rounded-5">
+          <div class="card-body text-white bg-dark rounded-4">
+            <ul className="list-unstyled text-start mx-auto">
+              <li>Bsc in Information Technology(Hons) </li>
+              <li>Kurukshetra University</li>
+              <li>2015-2018</li>
+              <li>72%</li>
+            </ul>
           </div>
         </div>
       </div>
