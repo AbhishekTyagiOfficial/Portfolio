@@ -12,7 +12,7 @@ export default function Home() {
           <div
             className="col-md-8 col-sm-12 col-xs-12 text-start"
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <div className=" mt-5">
               <span className="subtitle">Welcome to my world</span>
@@ -35,7 +35,7 @@ export default function Home() {
           <div
             className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary rounded-circle "
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
             // data-aos-offset="500"
           >
             <img

@@ -15,7 +15,11 @@ export default function Navbar() {
         className="navbar navbar-expand-lg shadow-lg p-2 bg-body-tertiary"
         style={navbg}
       >
-        <div className="container-fluid">
+        <div
+          className="container-fluid"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <Link className="navbar-brand" to="/" style={navbg}>
             <img
               src={image}
@@ -38,7 +42,12 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
