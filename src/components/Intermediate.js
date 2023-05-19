@@ -4,7 +4,11 @@ export default function Intermediate() {
   return (
     <>
       <div className="container ">
-        <div class="card w-50 mb-3 mx-auto shadow-lg border-0 rounded-5">
+        <div
+          class="card w-50 mb-3 mx-auto shadow-lg border-0 rounded-5"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
           <div class="card-body text-white bg-dark rounded-4">
             <ul className="list-unstyled text-start mx-auto">
               <li>12th </li>

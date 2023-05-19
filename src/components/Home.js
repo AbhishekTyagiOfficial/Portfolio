@@ -9,7 +9,11 @@ export default function Home() {
     <>
       <div className="container mt-5">
         <div className="row mb-5 d-flex flex-column-reverse flex-md-row mt-5">
-          <div className="col-md-8 col-sm-12 col-xs-12 text-start">
+          <div
+            className="col-md-8 col-sm-12 col-xs-12 text-start"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <div className=" mt-5">
               <span className="subtitle">Welcome to my world</span>
             </div>
@@ -28,7 +32,12 @@ export default function Home() {
               your project a success.
             </p>
           </div>
-          <div className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary rounded-circle ">
+          <div
+            className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary rounded-circle "
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            // data-aos-offset="500"
+          >
             <img
               src={images}
               alt="One_image"
@@ -42,7 +51,7 @@ export default function Home() {
       </div>
 
       <div className="container mt-5">
-        <div className="row">
+        <div className="row" data-aos="fade-down" data-aos-duration="1500">
           <h1>About Me</h1>
           <div className="col-md-12 col-sm-12 col-xs-12 text-start my-4">
             <p>
@@ -69,8 +78,18 @@ export default function Home() {
         </div>
         <div className="profile mt-3 mb-5">
           <div className="row">
-            <h5 className="text-start">Personal Profile</h5>
-            <div className="col-md-4 col-sm-12 col-xs-12 ">
+            <h5
+              className="text-start"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              Personal Profile
+            </h5>
+            <div
+              className="col-md-4 col-sm-12 col-xs-12 "
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <ul className="details text-start list-unstyled">
                 <li>
                   Birthday : <span>29-03-1998</span>
@@ -84,7 +103,11 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className=" col-md-8 col-sm-12 col-xs-12">
+            <div
+              className=" col-md-8 col-sm-12 col-xs-12"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <ul className="details text-start list-unstyled">
                 <li>
                   Qualification : <span>MCA</span>
@@ -104,28 +127,44 @@ export default function Home() {
         <div className="container mb-3">
           <div className="row">
             <h2 className="title_education mb-5">My Education</h2>
-            <div className="col-md-3 col-sm-12 col-xs-12 ">
+            <div
+              className="col-md-3 col-sm-12 col-xs-12 "
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
               <Link to="mca">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span className="list-unstyled">POST GRADUATION</span>{" "}
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 ">
+            <div
+              className="col-md-3 col-sm-12 col-xs-12 "
+              data-aos="flip-down"
+              data-aos-duration="2000"
+            >
               <Link to="bsc">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span className="">GRADUATION</span>
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 ">
+            <div
+              className="col-md-3 col-sm-12 col-xs-12 "
+              data-aos="flip-right"
+              data-aos-duration="3000"
+            >
               <Link to="intermediate">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span>INTERMEDIATE</span>
                 </div>
               </Link>
             </div>
-            <div className="col-md-3 col-sm-12 col-xs-12 ">
+            <div
+              className="col-md-3 col-sm-12 col-xs-12 "
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
               <Link to="matrix">
                 <div className="btn btn-dark w-100 p-3 mb-5">
                   <span>MATRICULATE</span>
@@ -141,7 +180,11 @@ export default function Home() {
             <h1> My Portfolio</h1>
             <div className="row row-cols-1 row-cols-md-3 g-3 mx-auto">
               <div className="col">
-                <div className="card h-100">
+                <div
+                  className="card h-100"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                >
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
                     <h5 className="card-title">PERSONAL WEBSITE</h5>
@@ -154,7 +197,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="col">
-                <div className="card h-100">
+                <div
+                  className="card h-100"
+                  data-aos="fade-down"
+                  data-aos-duration="1500"
+                >
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
                     <h5 className="card-title">CURD APPLICATION IN JAVA</h5>
@@ -163,7 +210,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="col">
-                <div className="card h-100">
+                <div
+                  className="card h-100"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                >
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
                     <h5 className="card-title">GAME ZONE WEBSITE</h5>
@@ -178,9 +229,13 @@ export default function Home() {
           </div>
         </div>
         <div className="container pb-5">
-          <div className="row ">
+          <div className="row">
             <h1 className="title_contact  my-5">Contact Me</h1>
-            <div className="col-md-6 col-sm-12 col-xs-12 my-5">
+            <div
+              className="col-md-6 col-sm-12 col-xs-12 my-5"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <div className="content text-start">
                 <p>
                   I am available for freelance work. Please fill out this form
@@ -200,7 +255,12 @@ export default function Home() {
               </ul>
               {/* </div> */}
             </div>
-            <div className="col-md-6 col-sm-12 col-xs-12 my-5">
+            <div
+              className="col-md-6 col-sm-12 col-xs-12 my-5"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div className="container">
                 <form
                   action="mailto:abhishektyagi99831@gmail.com"
