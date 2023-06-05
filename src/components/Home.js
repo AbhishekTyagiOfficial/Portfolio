@@ -156,7 +156,7 @@ export default function Home() {
             <h2 className="title_education mb-5">My Education</h2>
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="3000"
             >
               <Link to="mca">
@@ -167,8 +167,8 @@ export default function Home() {
             </div>
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
-              data-aos="flip-down"
-              data-aos-duration="2000"
+              data-aos="fade-down"
+              data-aos-duration="3000"
             >
               <Link to="bsc">
                 <div className="btn btn-dark w-100 p-3 mb-5">
@@ -178,7 +178,7 @@ export default function Home() {
             </div>
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
-              data-aos="flip-right"
+              data-aos="fade-down"
               data-aos-duration="3000"
             >
               <Link to="intermediate">
@@ -189,7 +189,7 @@ export default function Home() {
             </div>
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="3000"
             >
               <Link to="matrix">
