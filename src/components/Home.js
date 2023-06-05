@@ -3,6 +3,18 @@ import "../App.css";
 import images from "../images/one.jpg";
 import SocialFollow from "../SocialFollow";
 import { Link, Outlet } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
+
+// const MyComponent = () => {
+//   const handleType = (count: number) => {
+//     // access word count number
+//     console.log(count);
+//   };
+// };
+
+// const handleDone = () => {
+//   console.log(`Done after 5 loops!`);
+// };
 
 export default function Home() {
   return (
@@ -21,9 +33,24 @@ export default function Home() {
               Hi, I'm
               <span className="name mt-3 text-danger"> Abhishek Tyagi</span>
               <br />
-              <span className="profession  mt-5">
-                a Front-end Web Developer
-              </span>
+              <span className="profession  mt-5">a </span>
+              <Typewriter
+                words={[
+                  "Front-end Developer ",
+                  "Web Developer",
+                  "React js Developer",
+                  "Software Tester",
+                  "Website Tester",
+                ]}
+                loop="true"
+                cursor
+                cursorStyle="|"
+                typeSpeed={100}
+                deleteSpeed={80}
+                delaySpeed={3000}
+                // onLoopDone={handleDone}
+                // onType={handleType}
+              />
             </h1>
             <p className="description mt-5 text-start">
               I will design and develop modern and responsive websites using

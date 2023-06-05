@@ -14,7 +14,7 @@ export default function SocialFollow() {
       <div className="row">
         <div className="col-md-3 col-sm-1 col-xs-1 my-2">
           <a className="youtube social ">
-            <FontAwesomeIcon icon={faYoutube} size="2x " />
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </div>
 
