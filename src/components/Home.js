@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import images from "../images/one.jpg";
+import images from "../images/self2.png";
 import SocialFollow from "../SocialFollow";
 import { Link, Outlet } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
@@ -23,10 +23,10 @@ export default function Home() {
         <div className="row mb-5 d-flex flex-column-reverse flex-md-row mt-5">
           <div
             className="col-md-8 col-sm-12 col-xs-12 text-start"
-            data-aos="fade-right"
-            data-aos-duration="3000"
+            // data-aos="fade-right"
+            // data-aos-duration="1000"
           >
-            <div className=" mt-5">
+            <div className="mt-5">
               <span className="subtitle">Welcome to my world</span>
             </div>
             <h1 className="title mt-3">
@@ -36,18 +36,16 @@ export default function Home() {
               <span className="profession  mt-5">a </span>
               <Typewriter
                 words={[
-                  "Front-end Developer ",
+                  "Professional Coder",
                   "Web Developer",
-                  "React js Developer",
                   "Software Tester",
-                  "Website Tester",
                 ]}
                 loop="true"
                 cursor
                 cursorStyle="|"
                 typeSpeed={100}
                 deleteSpeed={80}
-                delaySpeed={3000}
+                delaySpeed={1000}
                 // onLoopDone={handleDone}
                 // onType={handleType}
               />
@@ -60,17 +58,25 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary rounded-circle "
+            className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary"
             data-aos="fade-left"
             data-aos-duration="3000"
             // data-aos-offset="500"
+            style={
+              {
+                // height: "26rem",
+                // background: "#66666608",
+                // borderRadius: "10px",
+              }
+            }
           >
             <img
               src={images}
-              alt="One_image"
+              alt="self2_image"
               style={{
                 width: "100%",
-                borderRadius: "20%",
+                // margin: "-6rem",
+                // borderRadius: "20%",
               }}
             />
           </div>
