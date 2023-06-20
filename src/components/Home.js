@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary"
+            className="thumbnail col-md-4 col-sm-12 col-xs-12 my-auto shadow-lg bg-body-tertiary "
             data-aos="fade-left"
             data-aos-duration="3000"
             // data-aos-offset="500"
@@ -113,14 +113,14 @@ export default function Home() {
           <div className="row">
             <h5
               className="text-start"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="1500"
             >
               Personal Profile
             </h5>
             <div
               className="col-md-4 col-sm-12 col-xs-12 "
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="1500"
             >
               <ul className="details text-start list-unstyled">
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
             <div
               className=" col-md-8 col-sm-12 col-xs-12"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="1500"
             >
               <ul className="details text-start list-unstyled">
@@ -159,11 +159,17 @@ export default function Home() {
 
         <div className="container mb-3">
           <div className="row">
-            <h2 className="title_education mb-5">My Education</h2>
+            <h2
+              className="title_education mb-5"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              My Education
+            </h2>
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1500"
             >
               <Link to="mca">
                 <div className="btn btn-dark w-100 p-3 mb-5">
@@ -174,7 +180,7 @@ export default function Home() {
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1500"
             >
               <Link to="bsc">
                 <div className="btn btn-dark w-100 p-3 mb-5">
@@ -185,7 +191,7 @@ export default function Home() {
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1500"
             >
               <Link to="intermediate">
                 <div className="btn btn-dark w-100 p-3 mb-5">
@@ -196,7 +202,7 @@ export default function Home() {
             <div
               className="col-md-3 col-sm-12 col-xs-12 "
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1500"
             >
               <Link to="matrix">
                 <div className="btn btn-dark w-100 p-3 mb-5">
@@ -215,7 +221,7 @@ export default function Home() {
               <div className="col">
                 <div
                   className="card h-100"
-                  data-aos="fade-right"
+                  data-aos="fade-down"
                   data-aos-duration="1500"
                 >
                   <img src={images} className="card-img-top" alt="..." />
@@ -245,8 +251,8 @@ export default function Home() {
               <div className="col">
                 <div
                   className="card h-100"
-                  data-aos="fade-left"
-                  data-aos-duration="2000"
+                  data-aos="fade-down"
+                  data-aos-duration="1500"
                 >
                   <img src={images} className="card-img-top" alt="..." />
                   <div className="card-body text-dark">
@@ -261,89 +267,92 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container pb-5">
-          <div className="row">
-            <h1 className="title_contact  my-5">Contact Me</h1>
-            <div
-              className="col-md-6 col-sm-12 col-xs-12 my-5"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <div className="content text-start">
-                <p>
-                  I am available for freelance work. Please fill out this form
-                  to contact with me or connect with me on my social accounts.
-                </p>
-              </div>
-              {/* <div className="contect_me "> */}
-              <h4 className="title_connect_with_me text-start my-5">
-                CONNECT WITH ME
-              </h4>
-              <SocialFollow />
-              <ul className="d-flex links list-unstyled">
-                {/* <li className="facebook ">Facebook</li>
+        <section id="contact">
+          <div className="container pb-5">
+            <div className="row">
+              <h1 className="title_contact  my-5">Contact Me</h1>
+              <div
+                className="col-md-6 col-sm-12 col-xs-12 my-5"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
+                <div className="content text-start">
+                  <p>
+                    I am available for freelance work. Please fill out this form
+                    to contact with me or connect with me on my social accounts.
+                  </p>
+                </div>
+                {/* <div className="contect_me "> */}
+                <h4 className="title_connect_with_me text-start my-5">
+                  CONNECT WITH ME
+                </h4>
+                <SocialFollow />
+                <ul className="d-flex links list-unstyled">
+                  {/* <li className="facebook ">Facebook</li>
                 <li className="facebook mx-2">Instagram</li>
                 <li className="facebook mx-2">LinkedIn</li>
                 <li className="facebook mx-2">Github</li> */}
-              </ul>
-              {/* </div> */}
-            </div>
-            <div
-              className="col-md-6 col-sm-12 col-xs-12 my-5"
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
-            >
-              <div className="container">
-                <form
-                  action="mailto:abhishektyagi99831@gmail.com"
-                  method="post"
-                  encType="text/plain"
-                >
-                  <div className="form-group">
-                    {/* <label for="name">Name</label> */}
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="name"
-                      name="name"
-                      placeholder="Name"
-                      required
-                    />
-                  </div>
-                  <div className="form-group mt-3">
-                    {/* <label for="email">Email</label> */}
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div className="form-group mt-3">
-                    {/* <label for="message">Message</label> */}
-                    <textarea
-                      className="form-control"
-                      id="message"
-                      name="message"
-                      rows="3"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="btn btn-outline-danger form-control my-5 p-2"
+                </ul>
+                {/* </div> */}
+              </div>
+              <div
+                className="col-md-6 col-sm-12 col-xs-12 my-5"
+                // data-aos="fade-down"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000"
+              >
+                <div className="container">
+                  <form
+                    action="mailto:abhishektyagi99831@gmail.com"
+                    method="post"
+                    encType="text/plain"
                   >
-                    Submit
-                  </button>
-                </form>
+                    <div className="form-group">
+                      {/* <label for="name">Name</label> */}
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Name"
+                        required
+                      />
+                    </div>
+                    <div className="form-group mt-3">
+                      {/* <label for="email">Email</label> */}
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                    <div className="form-group mt-3">
+                      {/* <label for="message">Message</label> */}
+                      <textarea
+                        className="form-control"
+                        id="message"
+                        name="message"
+                        rows="3"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <button
+                      type="submit"
+                      className="btn btn-outline-danger form-control my-5 p-2"
+                    >
+                      Submit
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

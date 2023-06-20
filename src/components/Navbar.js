@@ -1,7 +1,12 @@
 import React from "react";
-import "../App.css";
+// import "../Link.css";
 import { Link } from "react-router-dom";
 import image from "../images/one.jpg";
+
+// handleClick = () => {
+//   const section = document.getElementById("contact");
+//   section.scrollIntoView({ behavior: "smooth" });
+// };
 
 export default function Navbar() {
   const navbg = {
@@ -12,7 +17,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg shadow-lg p-2 bg-body-tertiary"
+        className="navbar navbar-fixed-top navbar-expand-lg shadow-lg p-2 bg-body-tertiary"
         style={navbg}
       >
         <div
@@ -80,9 +85,14 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link contact" to="/" style={navbg}>
+              <a
+                className="nav-link contact"
+                // onClick={handleClick}
+                href="/"
+                style={navbg}
+              >
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
