@@ -3,16 +3,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 import image from "../images/one.jpg";
 
-// handleClick = () => {
-//   const section = document.getElementById("contact");
-//   section.scrollIntoView({ behavior: "smooth" });
-// };
-
 export default function Navbar() {
   const navbg = {
     color: "white",
     backgroundColor: "#282c34",
   };
+  function home() {
+    // console.log("Clicked");
+  }
+  function about() {
+    // console.log("Clicked");
+  }
+  function education() {
+    // console.log("Clicked");
+  }
+  function personal_profile() {
+    // console.log("Clicked");
+  }
+
+  function contact() {
+    // console.log("Clicked");
+  }
 
   return (
     <>
@@ -55,40 +66,52 @@ export default function Navbar() {
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
+              <a
                 className="nav-link home"
                 aria-current="page"
-                to="/"
+                href="#home"
+                onClick={home}
                 style={navbg}
               >
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
+              <a
                 className="nav-link about"
                 id="target_section_about"
-                to="/"
+                href="#about"
+                onClick={about}
                 style={navbg}
               >
                 About
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link edu" to="/" style={navbg}>
+              <a
+                className="nav-link edu"
+                href="#education"
+                onClick={education}
+                style={navbg}
+              >
                 Education
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link port" to="/" style={navbg}>
+              <a
+                className="nav-link port"
+                href="#personal_profile"
+                onClick={personal_profile}
+                style={navbg}
+              >
                 Portfolio
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link contact"
-                // onClick={handleClick}
-                href="/"
+                onClick={contact}
+                href="#contact"
                 style={navbg}
               >
                 Contact
