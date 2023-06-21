@@ -84,6 +84,70 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <div className="container my-5">
+        <section id="what_do">
+          <div className="what_do_title text-start">
+            <span>Feature</span>
+            <h1 className="what_do_heading ">What i Do</h1>
+          </div>
+          <div className="row  my-5">
+            <div className="col-md-4 col-sm-12 col-xs-12">
+              <div className="we_do_content text-start">
+                <div className="container-fluid">
+                  <div className="icon">
+                    <h5>icon</h5>
+                  </div>
+                  <div className="we_do_text">
+                    <div className="we_do_text_heading">
+                      <h3>Business Stratagy</h3>
+                    </div>
+                    <span>
+                      There are many variations of passages of lorem ipsum
+                      avakiable, but the majority
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-xs-12">
+              <div className="we_do_content text-start">
+                <div className="container-fluid">
+                  <div className="icon">
+                    <h5>icon</h5>
+                  </div>
+                  <div className="we_do_text">
+                    <div className="we_do_text_heading">
+                      <h3>App Development</h3>
+                    </div>
+                    <span>
+                      There are many variations of passages of lorem ipsum
+                      avakiable, but the majority
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-xs-12">
+              <div className="we_do_content text-start">
+                <div className="container-fluid">
+                  <div className="icon">
+                    <h5>icon</h5>
+                  </div>
+                  <div className="we_do_text">
+                    <div className="we_do_text_heading">
+                      <h3>App Development</h3>
+                    </div>
+                    <span>
+                      There are many variations of passages of lorem ipsum
+                      avakiable, but the majority
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <div className="container mt-5">
         <section id="about">
           <div className="row" data-aos="fade-down" data-aos-duration="1500">
@@ -112,6 +176,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+      <div className="container mt-5">
         <section id="personal_profile">
           <div className="profile mt-3 mb-5">
             <div className="row">
@@ -161,6 +227,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+      <div className="container mt-5">
         <section id="education">
           <div className="container mb-3">
             <div className="row">
@@ -219,6 +287,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+      <div className="container mt-5">
         <section id="portfolio">
           <div className="container my-5 mb-5">
             <div className="row ml-auto">
@@ -274,6 +344,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+      </div>
+      <div className="container mt-5">
         <section id="contact">
           <div className="container pb-5">
             <div className="row">

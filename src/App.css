@@ -37,40 +37,41 @@
   }
 }
 
-.home:hover{
-  color:red;
-}
-.about:hover{
+.home:hover {
   color: red;
 }
-.edu:hover{
+.about:hover {
   color: red;
 }
-.port:hover{
+.edu:hover {
   color: red;
 }
-.contact:hover{
+.port:hover {
+  color: red;
+}
+.contact:hover {
   color: red;
 }
 /* Icons */
-.youtube{
-border: 15px;
+.youtube {
+  border: 15px;
 }
-element.style {}
+element.style {
+}
 
 .mt-5 {
   margin-top: 3rem !important;
 }
 
 @media (min-width: 1400px) {
-.container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  max-width: 1280px!important;
-}
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1280px !important;
+  }
 }
 
 /* .thumbnail::before {
@@ -89,3 +90,62 @@ element.style {}
   border-radius: 6px;
 } */
 
+/* Resume style */
+
+#cards {
+  /* color: white; */
+  background-color: #212428;
+}
+.card-text {
+  color: #7c838e;
+}
+
+.card:hover {
+  /* background: linear-gradient(145deg, #1e2024, #23272b); */
+  background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+.card:hover .card-body {
+  transform: translateY(-20px);
+}
+
+/* Resume componenet */
+
+.experience_list {
+  border-left: 5px solid #17191c;
+  padding-left: 31px;
+}
+.heading {
+  font-family: "Poppins", sans-serif;
+}
+.resume-single-list .card::before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 35px;
+  background-color: #17191c;
+  right: 567px;
+  top: 78px;
+}
+.resume-single-list .card::after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #282c34;
+  border: 4px solid #17191c;
+  right: 590px;
+  top: 70px;
+}
+.resume-single-list .card:hover::after {
+  background-color: red;
+}
+.resume-single-list .card .card-header .title .heading_maintitle {
+  color: #7c838e;
+  display: block;
+  font-size: 14px;
+}
+.date_time {
+  color: #ff014f;
+}
