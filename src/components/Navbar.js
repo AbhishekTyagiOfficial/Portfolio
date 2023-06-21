@@ -8,18 +8,18 @@ export default function Navbar() {
     color: "white",
     backgroundColor: "#282c34",
   };
-  function home() {
+  const home = () => {
     // console.log("Clicked");
-  }
-  function about() {
+  };
+  const about = () => {
     // console.log("Clicked");
-  }
-  function education() {
+  };
+  const education = () => {
     // console.log("Clicked");
-  }
-  function personal_profile() {
+  };
+  const personal_profile = () => {
     // console.log("Clicked");
-  }
+  };
 
   function contact() {
     // console.log("Clicked");
@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-fixed-top navbar-expand-lg shadow-lg p-2 bg-body-tertiary"
+        className="navbar navbar-expand-lg shadow-lg p-2 bg-body-tertiary navbar-fixed-top"
         style={navbg}
       >
         <div
