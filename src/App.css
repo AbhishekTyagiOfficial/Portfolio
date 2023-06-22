@@ -103,6 +103,7 @@ element.style {
 .card:hover {
   /* background: linear-gradient(145deg, #1e2024, #23272b); */
   background: linear-gradient(to right bottom, #212428, #16181c);
+  /* transform: scale(1.1); */
 }
 
 .card:hover .card-body {
@@ -148,4 +149,14 @@ element.style {
 }
 .date_time {
   color: #ff014f;
+}
+.we_do_content,
+#cards {
+  height: 100%;
+}
+#what_do .card {
+  /* background: red; */
+}
+#what_do .card:hover .icon {
+  transform: scale(1.1);
 }

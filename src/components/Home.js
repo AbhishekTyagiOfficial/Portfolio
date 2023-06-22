@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import images from "../images/self2.png";
+import imagesp from "../images/portfolio-01.jpg";
 import SocialFollow from "../SocialFollow";
 import { Link, Outlet } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
@@ -84,63 +85,150 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      {/* What i Do */}
+
       <div className="container my-5">
         <section id="what_do">
           <div className="what_do_title text-start">
             <span>Feature</span>
             <h1 className="what_do_heading ">What i Do</h1>
           </div>
-          <div className="row  my-5">
-            <div className="col-md-4 col-sm-12 col-xs-12">
-              <div className="we_do_content text-start">
-                <div className="container-fluid">
-                  <div className="icon">
-                    <h5>icon</h5>
-                  </div>
-                  <div className="we_do_text">
-                    <div className="we_do_text_heading">
-                      <h3>Business Stratagy</h3>
+          <div className="row my-5">
+            <div className="col-md-4 col-sm-12 col-xs-12 ">
+              <div className="we_do_content text-start  ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <h5>icon</h5>
+                      </div>
+                      <div className="we_do_text">
+                        <div className="we_do_text_heading">
+                          <h3>Business Stratagy</h3>
+                        </div>
+                        <span>
+                          There are many variations of passages of lorem ipsum
+                          avakiable, but the majorityThere are many variations
+                          of passages of lorem ipsum avakiable, but the majority
+                        </span>
+                      </div>
                     </div>
-                    <span>
-                      There are many variations of passages of lorem ipsum
-                      avakiable, but the majority
-                    </span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12 col-xs-12">
-              <div className="we_do_content text-start">
-                <div className="container-fluid">
-                  <div className="icon">
-                    <h5>icon</h5>
-                  </div>
-                  <div className="we_do_text">
-                    <div className="we_do_text_heading">
-                      <h3>App Development</h3>
+              <div className="we_do_content text-start ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <h5>icon</h5>
+                      </div>
+                      <div className="we_do_text">
+                        <div className="we_do_text_heading">
+                          <h3>App Development</h3>
+                        </div>
+                        <span>
+                          There are many variations of passages of lorem ipsum
+                          avakiable, but the majority
+                        </span>
+                      </div>
                     </div>
-                    <span>
-                      There are many variations of passages of lorem ipsum
-                      avakiable, but the majority
-                    </span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12 col-xs-12">
-              <div className="we_do_content text-start">
-                <div className="container-fluid">
-                  <div className="icon">
-                    <h5>icon</h5>
-                  </div>
-                  <div className="we_do_text">
-                    <div className="we_do_text_heading">
-                      <h3>App Development</h3>
+              <div className="we_do_content text-start ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <h5>icon</h5>
+                      </div>
+                      <div className="we_do_text">
+                        <div className="we_do_text_heading">
+                          <h3>App Development</h3>
+                        </div>
+                        <span>
+                          There are many variations of passages of lorem ipsum
+                          avakiable, but the majority
+                        </span>
+                      </div>
                     </div>
-                    <span>
-                      There are many variations of passages of lorem ipsum
-                      avakiable, but the majority
-                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="row my-5">
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <h5>icon</h5>
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              There are many variations of passages of lorem
+                              ipsum avakiable, but the majority
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <h5>icon</h5>
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              There are many variations of passages of lorem
+                              ipsum avakiable, but the majority
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <h5>icon</h5>
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Eligendi, molestiae quas
+                              quaerat, quidem illo harum eaque repudiandae odit!
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -148,6 +236,197 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      {/* My Portfolio */}
+
+      <div className="container my-5">
+        <section id="what_do">
+          <div className="what_do_title text-center">
+            <span>Visit My portfolio and keep your Feedback</span>
+            <h1 className="what_do_heading ">My Portfolio</h1>
+          </div>
+          <div className="row my-5">
+            <div className="col-md-4 col-sm-12 col-xs-12 ">
+              <div className="we_do_content text-start  ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <img
+                          src={imagesp}
+                          alt="portfolio-1"
+                          style={{
+                            width: "100%",
+                            borderRadius: "10px",
+                          }}
+                        />
+                      </div>
+                      <div className="we_do_text">
+                        <div className="category_info">
+                          <ul>
+                            <li>Development</li>
+                            <li>600</li>
+                          </ul>
+                        </div>
+                        <div className="we_do_text_heading">
+                          <span>
+                            There are many variations of passages of lorem ipsum
+                            avakiable, but the majorityThere are many variations
+                            of passages of lorem ipsum avakiable, but the
+                            majority
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-xs-12">
+              <div className="we_do_content text-start ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <img
+                          src={imagesp}
+                          alt="portfolio-1"
+                          style={{ width: "100%", borderRadius: "10px" }}
+                        />
+                      </div>
+                      <div className="we_do_text">
+                        <div className="we_do_text_heading">
+                          <div className="category_info">
+                            <ul>
+                              <li>Development</li>
+                              <li>600</li>
+                            </ul>
+                          </div>{" "}
+                        </div>
+                        <span>
+                          There are many variations of passages of lorem ipsum
+                          avakiable, but the majority
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-xs-12">
+              <div className="we_do_content text-start ">
+                <div class="card" id="cards">
+                  <div class="card-body my-5 mx-3">
+                    <div className="container-fluid">
+                      <div className="icon">
+                        <img
+                          src={imagesp}
+                          alt="portfolio-1"
+                          style={{ width: "100%", borderRadius: "10px" }}
+                        />
+                      </div>
+                      <div className="we_do_text">
+                        <div className="we_do_text_heading">
+                          <h3>App Development</h3>
+                        </div>
+                        <span>
+                          There are many variations of passages of lorem ipsum
+                          avakiable, but the majority
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="row my-5">
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <img
+                              src={imagesp}
+                              alt="portfolio-1"
+                              style={{ width: "100%", borderRadius: "10px" }}
+                            />
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              There are many variations of passages of lorem
+                              ipsum avakiable, but the majority
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <img
+                              src={imagesp}
+                              alt="portfolio-1"
+                              style={{ width: "100%", borderRadius: "10px" }}
+                            />
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              There are many variations of passages of lorem
+                              ipsum avakiable, but the majority
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12 col-xs-12">
+                  <div className="we_do_content text-start ">
+                    <div class="card" id="cards">
+                      <div class="card-body my-5 mx-3">
+                        <div className="container-fluid">
+                          <div className="icon">
+                            <img
+                              src={imagesp}
+                              alt="portfolio-1"
+                              style={{ width: "100%", borderRadius: "10px" }}
+                            />
+                          </div>
+                          <div className="we_do_text">
+                            <div className="we_do_text_heading">
+                              <h3>App Development</h3>
+                            </div>
+                            <span>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Eligendi, molestiae quas
+                              quaerat, quidem illo harum eaque repudiandae odit!
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      {/* About */}
       <div className="container mt-5">
         <section id="about">
           <div className="row" data-aos="fade-down" data-aos-duration="1500">
@@ -177,6 +456,9 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      {/* Personal Profile */}
+
       <div className="container mt-5">
         <section id="personal_profile">
           <div className="profile mt-3 mb-5">
