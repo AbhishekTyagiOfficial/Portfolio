@@ -91,8 +91,8 @@ export default function Home() {
       <div className="container my-5">
         <section id="what_do">
           <div className="what_do_title text-start">
-            <span>Feature</span>
-            <h1 className="what_do_heading ">What i Do</h1>
+            <span className="what_do_feature">Feature</span>
+            <h1 className="what_do_heading ">What I Do</h1>
           </div>
           <div className="row my-5">
             <div className="col-md-4 col-sm-12 col-xs-12 ">
@@ -100,17 +100,32 @@ export default function Home() {
                 <div class="card" id="cards">
                   <div class="card-body my-5 mx-3">
                     <div className="container-fluid">
-                      <div className="icon">
-                        <h5>icon</h5>
+                      <div className="icon my-5">
+                        {/* <h5>icon</h5> */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="50"
+                          height="50"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-menu"
+                        >
+                          <line x1="3" y1="12" x2="21" y2="12"></line>
+                          <line x1="3" y1="6" x2="21" y2="6"></line>
+                          <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
                       </div>
                       <div className="we_do_text">
                         <div className="we_do_text_heading">
                           <h3>Business Stratagy</h3>
                         </div>
-                        <span>
-                          There are many variations of passages of lorem ipsum
-                          avakiable, but the majorityThere are many variations
-                          of passages of lorem ipsum avakiable, but the majority
+                        <span className="we_do_description">
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
                         </span>
                       </div>
                     </div>
@@ -123,16 +138,31 @@ export default function Home() {
                 <div class="card" id="cards">
                   <div class="card-body my-5 mx-3">
                     <div className="container-fluid">
-                      <div className="icon">
-                        <h5>icon</h5>
+                      <div className="icon my-5">
+                        {/* <h5>icon</h5> */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="50"
+                          height="50"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-book-open"
+                        >
+                          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
                       </div>
                       <div className="we_do_text">
                         <div className="we_do_text_heading">
                           <h3>App Development</h3>
                         </div>
-                        <span>
-                          There are many variations of passages of lorem ipsum
-                          avakiable, but the majority
+                        <span className="we_do_description">
+                          It uses a dictionary of over 200 Latin words, combined
+                          with a handful of model sentence.
                         </span>
                       </div>
                     </div>
@@ -145,16 +175,37 @@ export default function Home() {
                 <div class="card" id="cards">
                   <div class="card-body my-5 mx-3">
                     <div className="container-fluid">
-                      <div className="icon">
-                        <h5>icon</h5>
+                      <div className="icon icon my-5">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="50"
+                          height="50"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-tv"
+                        >
+                          <rect
+                            x="2"
+                            y="7"
+                            width="20"
+                            height="15"
+                            rx="2"
+                            ry="2"
+                          ></rect>
+                          <polyline points="17 2 12 7 7 2"></polyline>
+                        </svg>
                       </div>
                       <div className="we_do_text">
                         <div className="we_do_text_heading">
                           <h3>App Development</h3>
                         </div>
-                        <span>
-                          There are many variations of passages of lorem ipsum
-                          avakiable, but the majority
+                        <span className="we_do_description">
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
                         </span>
                       </div>
                     </div>
@@ -169,16 +220,30 @@ export default function Home() {
                     <div class="card" id="cards">
                       <div class="card-body my-5 mx-3">
                         <div className="container-fluid">
-                          <div className="icon">
-                            <h5>icon</h5>
+                          <div className=" icon my-5">
+                            {/* <h5>icon</h5> */}
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="50"
+                              height="50"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="feather feather-twitch"
+                            >
+                              <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
+                            </svg>
                           </div>
                           <div className="we_do_text">
                             <div className="we_do_text_heading">
-                              <h3>App Development</h3>
+                              <h3>Mobile App</h3>
                             </div>
-                            <span>
-                              There are many variations of passages of lorem
-                              ipsum avakiable, but the majority
+                            <span className="we_do_description">
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority.
                             </span>
                           </div>
                         </div>
@@ -191,16 +256,32 @@ export default function Home() {
                     <div class="card" id="cards">
                       <div class="card-body my-5 mx-3">
                         <div className="container-fluid">
-                          <div className="icon">
-                            <h5>icon</h5>
+                          <div className="icon my-5">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="50"
+                              height="50"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="feather feather-wifi"
+                            >
+                              <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                              <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                              <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                              <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                            </svg>
                           </div>
                           <div className="we_do_text">
                             <div className="we_do_text_heading">
-                              <h3>App Development</h3>
+                              <h3>CEO Marketing</h3>
                             </div>
-                            <span>
-                              There are many variations of passages of lorem
-                              ipsum avakiable, but the majority
+                            <span className="we_do_description">
+                              always free from repetition, injected humour, or
+                              non-characteristic words etc.
                             </span>
                           </div>
                         </div>
@@ -213,17 +294,37 @@ export default function Home() {
                     <div class="card" id="cards">
                       <div class="card-body my-5 mx-3">
                         <div className="container-fluid">
-                          <div className="icon">
-                            <h5>icon</h5>
+                          <div className="icon my-5">
+                            {/* <h5>icon</h5> */}
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="50"
+                              height="50"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="feather feather-slack"
+                            >
+                              <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"></path>
+                              <path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"></path>
+                              <path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"></path>
+                              <path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"></path>
+                              <path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"></path>
+                              <path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"></path>
+                              <path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"></path>
+                              <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"></path>
+                            </svg>
                           </div>
                           <div className="we_do_text">
                             <div className="we_do_text_heading">
-                              <h3>App Development</h3>
+                              <h3>Personal Portfolio April</h3>
                             </div>
-                            <span>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Eligendi, molestiae quas
-                              quaerat, quidem illo harum eaque repudiandae odit!
+                            <span className="we_do_description">
+                              It uses a dictionary of over 200 Latin words,
+                              combined with a handful of model sentence.
                             </span>
                           </div>
                         </div>
@@ -242,7 +343,9 @@ export default function Home() {
       <div className="container my-5">
         <section id="what_do">
           <div className="what_do_title text-center">
-            <span>Visit My portfolio and keep your Feedback</span>
+            <span className="what_do_portfolio">
+              Visit My portfolio and keep your Feedback
+            </span>
             <h1 className="what_do_heading ">My Portfolio</h1>
           </div>
           <div className="row my-5">
@@ -269,12 +372,7 @@ export default function Home() {
                           </ul>
                         </div>
                         <div className="we_do_text_heading">
-                          <span>
-                            There are many variations of passages of lorem ipsum
-                            avakiable, but the majorityThere are many variations
-                            of passages of lorem ipsum avakiable, but the
-                            majority
-                          </span>
+                          <span>The services provide for design</span>
                         </div>
                       </div>
                     </div>
@@ -301,12 +399,9 @@ export default function Home() {
                               <li>Development</li>
                               <li>600</li>
                             </ul>
-                          </div>{" "}
+                          </div>
                         </div>
-                        <span>
-                          There are many variations of passages of lorem ipsum
-                          avakiable, but the majority
-                        </span>
+                        <span>Mobile app landing design & app maintain</span>
                       </div>
                     </div>
                   </div>
@@ -329,10 +424,7 @@ export default function Home() {
                         <div className="we_do_text_heading">
                           <h3>App Development</h3>
                         </div>
-                        <span>
-                          There are many variations of passages of lorem ipsum
-                          avakiable, but the majority
-                        </span>
+                        <span>Logo design creativity & Application</span>
                       </div>
                     </div>
                   </div>
@@ -357,10 +449,7 @@ export default function Home() {
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
-                            <span>
-                              There are many variations of passages of lorem
-                              ipsum avakiable, but the majority
-                            </span>
+                            <span>Mobile app landing design & Services</span>
                           </div>
                         </div>
                       </div>
@@ -383,10 +472,7 @@ export default function Home() {
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
-                            <span>
-                              There are many variations of passages of lorem
-                              ipsum avakiable, but the majority
-                            </span>
+                            <span>Design for tecnology & services</span>
                           </div>
                         </div>
                       </div>
@@ -409,11 +495,7 @@ export default function Home() {
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
-                            <span>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Eligendi, molestiae quas
-                              quaerat, quidem illo harum eaque repudiandae odit!
-                            </span>
+                            <span>App for tecnology & services</span>
                           </div>
                         </div>
                       </div>
@@ -429,7 +511,10 @@ export default function Home() {
       {/* About */}
       <div className="container mt-5">
         <section id="about">
-          <div className="row" data-aos="fade-down" data-aos-duration="1500">
+          <div
+            className="row"
+            // data-aos="fade-down" data-aos-duration="1500"
+          >
             <h1>About Me</h1>
             <div className="col-md-12 col-sm-12 col-xs-12 text-start my-4">
               <p>
@@ -465,15 +550,15 @@ export default function Home() {
             <div className="row">
               <h5
                 className="text-start"
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 Personal Profile
               </h5>
               <div
                 className="col-md-4 col-sm-12 col-xs-12 "
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <ul className="details text-start list-unstyled">
                   <li>
@@ -490,8 +575,8 @@ export default function Home() {
               </div>
               <div
                 className=" col-md-8 col-sm-12 col-xs-12"
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <ul className="details text-start list-unstyled">
                   <li>
@@ -516,15 +601,15 @@ export default function Home() {
             <div className="row">
               <h2
                 className="title_education mb-5"
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 My Education
               </h2>
               <div
                 className="col-md-3 col-sm-12 col-xs-12 "
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <Link to="mca">
                   <div className="btn btn-dark w-100 p-3 mb-5">
@@ -534,8 +619,8 @@ export default function Home() {
               </div>
               <div
                 className="col-md-3 col-sm-12 col-xs-12 "
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <Link to="bsc">
                   <div className="btn btn-dark w-100 p-3 mb-5">
@@ -545,8 +630,8 @@ export default function Home() {
               </div>
               <div
                 className="col-md-3 col-sm-12 col-xs-12 "
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <Link to="intermediate">
                   <div className="btn btn-dark w-100 p-3 mb-5">
@@ -556,8 +641,8 @@ export default function Home() {
               </div>
               <div
                 className="col-md-3 col-sm-12 col-xs-12 "
-                data-aos="fade-down"
-                data-aos-duration="1500"
+                // data-aos="fade-down"
+                // data-aos-duration="1500"
               >
                 <Link to="matrix">
                   <div className="btn btn-dark w-100 p-3 mb-5">
@@ -579,8 +664,8 @@ export default function Home() {
                 <div className="col">
                   <div
                     className="card h-100"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
+                    // data-aos="fade-down"
+                    // data-aos-duration="1500"
                   >
                     <img src={images} className="card-img-top" alt="..." />
                     <div className="card-body text-dark">
@@ -596,8 +681,8 @@ export default function Home() {
                 <div className="col">
                   <div
                     className="card h-100"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
+                    // data-aos="fade-down"
+                    // data-aos-duration="1500"
                   >
                     <img src={images} className="card-img-top" alt="..." />
                     <div className="card-body text-dark">
@@ -609,8 +694,8 @@ export default function Home() {
                 <div className="col">
                   <div
                     className="card h-100"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
+                    // data-aos="fade-down"
+                    // data-aos-duration="1500"
                   >
                     <img src={images} className="card-img-top" alt="..." />
                     <div className="card-body text-dark">
@@ -634,8 +719,8 @@ export default function Home() {
               <h1 className="title_contact  my-5">Contact Me</h1>
               <div
                 className="col-md-6 col-sm-12 col-xs-12 my-5"
-                data-aos="fade-down"
-                data-aos-duration="2000"
+                // data-aos="fade-down"
+                // data-aos-duration="2000"
               >
                 <div className="content text-start">
                   <p>
@@ -659,9 +744,8 @@ export default function Home() {
               <div
                 className="col-md-6 col-sm-12 col-xs-12 my-5"
                 // data-aos="fade-down"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="2000"
+                // data-aos-easing="linear"
+                // data-aos-duration="2000"
               >
                 <div className="container">
                   <form

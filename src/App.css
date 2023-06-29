@@ -1,3 +1,7 @@
+:root {
+  --color-lightn: #c4cfde;
+}
+
 .App {
   text-align: center;
 }
@@ -159,4 +163,54 @@ element.style {
 }
 #what_do .card:hover .icon {
   transform: scale(1.1);
+}
+.we_do_text_heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #c4cfde;
+}
+
+.we_do_description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #c4cfde;
+  transition: 0.4s;
+}
+.we_do_content
+  .card
+  .card-body
+  .container-fluid
+  .we_do_text
+  .we_do_description:hover {
+  color: red;
+  transition: 0.4s;
+}
+
+.what_do_feature {
+  color: #ff014f;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+.what_do_heading {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-lightn);
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.icon svg {
+  color: #ff014f;
+}
+.what_do_portfolio {
+  color: #ff014f;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 14px;
+  margin-bottom: 10px;
 }
