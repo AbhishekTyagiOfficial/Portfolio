@@ -5,8 +5,8 @@ import image from "../images/one.jpg";
 
 export default function Navbar() {
   const navbg = {
-    color: "white",
-    backgroundColor: "#282c34",
+    // color: "white",
+    // backgroundColor: "#282c34",
   };
   const home = () => {
     // console.log("Clicked");

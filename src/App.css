@@ -94,6 +94,19 @@ element.style {
   border-radius: 6px;
 } */
 
+/* NavBar */
+.navbar {
+  /* color: #ff014f; */
+  background-color: #282c34;
+}
+.navbar li a {
+  color: white;
+  background-color: #282c34;
+}
+.navbar li a:hover {
+  color: #ff014f;
+}
+
 /* Resume style */
 
 #cards {
@@ -165,8 +178,8 @@ element.style {
   transform: scale(1.1);
 }
 .we_do_text_heading {
-  font-weight: 500;
-  font-size: 24px;
+  /* font-weight: 500; */
+  /* font-size: 24px; */
   line-height: 32px;
   margin-bottom: 20px;
   color: #c4cfde;
@@ -207,7 +220,7 @@ element.style {
 .icon svg {
   color: #ff014f;
 }
-.what_do_portfolio {
+.we_do_portfolio {
   color: #ff014f;
   letter-spacing: 1px;
   display: block;

@@ -5,6 +5,7 @@ import imagesp from "../images/portfolio-01.jpg";
 import SocialFollow from "../SocialFollow";
 import { Link, Outlet } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
+import Price from "./Price";
 
 // const MyComponent = () => {
 //   const handleType = (count: number) => {
@@ -98,7 +99,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12 ">
               <div className="we_do_content text-start  ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon my-5">
                         {/* <h5>icon</h5> */}
@@ -119,7 +120,7 @@ export default function Home() {
                           <line x1="3" y1="18" x2="21" y2="18"></line>
                         </svg>
                       </div>
-                      <div className="we_do_text">
+                      <div className="we_do_text ">
                         <div className="we_do_text_heading">
                           <h3>Business Stratagy</h3>
                         </div>
@@ -136,7 +137,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="we_do_content text-start ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon my-5">
                         {/* <h5>icon</h5> */}
@@ -173,7 +174,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="we_do_content text-start ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon icon my-5">
                         <svg
@@ -218,7 +219,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className=" icon my-5">
                             {/* <h5>icon</h5> */}
@@ -254,7 +255,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className="icon my-5">
                             <svg
@@ -292,7 +293,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className="icon my-5">
                             {/* <h5>icon</h5> */}
@@ -343,7 +344,7 @@ export default function Home() {
       <div className="container my-5">
         <section id="what_do">
           <div className="what_do_title text-center">
-            <span className="what_do_portfolio">
+            <span className="we_do_portfolio">
               Visit My portfolio and keep your Feedback
             </span>
             <h1 className="what_do_heading ">My Portfolio</h1>
@@ -352,7 +353,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12 ">
               <div className="we_do_content text-start  ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon">
                         <img
@@ -364,7 +365,7 @@ export default function Home() {
                           }}
                         />
                       </div>
-                      <div className="we_do_text">
+                      <div className="we_do_text my-4">
                         <div className="category_info">
                           <ul>
                             <li>Development</li>
@@ -383,7 +384,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="we_do_content text-start ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon">
                         <img
@@ -392,12 +393,12 @@ export default function Home() {
                           style={{ width: "100%", borderRadius: "10px" }}
                         />
                       </div>
-                      <div className="we_do_text">
+                      <div className="we_do_text my-4">
                         <div className="we_do_text_heading">
                           <div className="category_info">
                             <ul>
-                              <li>Development</li>
-                              <li>600</li>
+                              <li>Application</li>
+                              <li>750</li>
                             </ul>
                           </div>
                         </div>
@@ -411,7 +412,7 @@ export default function Home() {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="we_do_content text-start ">
                 <div class="card" id="cards">
-                  <div class="card-body my-5 mx-3">
+                  <div class="card-body my-3 mx-3">
                     <div className="container-fluid">
                       <div className="icon">
                         <img
@@ -420,7 +421,7 @@ export default function Home() {
                           style={{ width: "100%", borderRadius: "10px" }}
                         />
                       </div>
-                      <div className="we_do_text">
+                      <div className="we_do_text my-4">
                         <div className="we_do_text_heading">
                           <h3>App Development</h3>
                         </div>
@@ -436,7 +437,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className="icon">
                             <img
@@ -445,7 +446,7 @@ export default function Home() {
                               style={{ width: "100%", borderRadius: "10px" }}
                             />
                           </div>
-                          <div className="we_do_text">
+                          <div className="we_do_text my-4">
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
@@ -459,7 +460,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className="icon">
                             <img
@@ -468,7 +469,7 @@ export default function Home() {
                               style={{ width: "100%", borderRadius: "10px" }}
                             />
                           </div>
-                          <div className="we_do_text">
+                          <div className="we_do_text my-4">
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
@@ -482,7 +483,7 @@ export default function Home() {
                 <div className="col-md-4 col-sm-12 col-xs-12">
                   <div className="we_do_content text-start ">
                     <div class="card" id="cards">
-                      <div class="card-body my-5 mx-3">
+                      <div class="card-body my-3 mx-3">
                         <div className="container-fluid">
                           <div className="icon">
                             <img
@@ -491,7 +492,7 @@ export default function Home() {
                               style={{ width: "100%", borderRadius: "10px" }}
                             />
                           </div>
-                          <div className="we_do_text">
+                          <div className="we_do_text my-4">
                             <div className="we_do_text_heading">
                               <h3>App Development</h3>
                             </div>
@@ -655,6 +656,8 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Price />
+      {/* Portfolio */}
       <div className="container mt-5">
         <section id="portfolio">
           <div className="container my-5 mb-5">
